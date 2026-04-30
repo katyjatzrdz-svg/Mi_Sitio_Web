@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Música</title>
+
+    <style>
+        body {
+            background-color: #E34F95;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* 🔙 Botón de inicio */
+        .inicio {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: white;
+            color: #E34F95;
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }hg
+
+        .inicio:hover {
+            background-color: #ffd1e6;
+        }
+
+        /* 🎬 Animación del título */
+        h1 {
+            margin-top: 40px;
+            animation: mover 3s infinite alternate;
+        }
+
+        @keyframes mover {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        /* ✨ Efecto en imágenes */
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            transition: transform 0.3s, filter 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            filter: brightness(1.2);
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            width: 70%;
+            margin: 30px auto;
+            text-align: left;
+        }
+
+        h2 {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 🔙 Botón inicio -->
+    <a href="index.html" class="inicio">Inicio</a>
+
+    <h1>MI MÚSICA FAVORITA</h1>
+    <hr>
+
+    <table border="1">
+        <tr>
+            <td><b><a href="#Hero">Holding Out For A Hero</a></b></td>
+            <td><b><a href="#Muse">Who</a></b></td>
+            <td><b><a href="#Sweet">Manchild</a></b></td>
+            <td><b><a href="#Love">Love Dive</a></b></td>
+            <td><b><a href="#Circe">Wouldn't You Like</a></b></td>
+        </tr>
+
+        <tr>
+            <td><img src="https://i1.sndcdn.com/artworks-sYbRaPdYIvr5dSRl-8LnHtA-t500x500.jpg"></td>
+            <td><img src="https://i.scdn.co/image/ab67616d0000b273f02c451189a709b9a952aaec"></td>
+            <td><img src="https://i.scdn.co/image/ab67616d00001e02062c6573009fdebd43de443b"></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/7/7c/Ive_%E2%80%93_Love_Dive_%28Japanese_version_cover%29.jpeg"></td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6c4SsESD3BpFY2GvFCKKCUewVreBGMDeNVQ&s"></td>
+        </tr>
+    </table>
+
+    <h2>Resumen</h2>
+
+    <section id="Hero">
+        <h3>Holding Out For A Hero</h3>
+        <p>
+        Canción de 1984 de Bonnie Tyler, parte de Footloose.
+        </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bWcASV2sey0?si=z8CegHki1k6KiteZ" title="YouTube video player"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="Muse">
+        <h3>Who</h3>
+        <p>
+        Canción de Jimin (2024) sobre emociones y amor.
+        </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Av9DvtlJ9_M?si=By0FL5Mu88SvuHO5" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="Sweet">
+        <h3>Manchild</h3>
+        <p>
+        De Sabrina Carpenter (2024), sobre relaciones inmaduras.
+        </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aSugSGCC12I?si=nvAahTpHHiTpPnbY" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+| referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="Love">
+        <h3>Love Dive</h3>
+        <p>
+        De IVE (2022), confianza en el amor.
+        </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y8JFxS1HlDo?si=fo6U2lm-n-cz1DJz" title="YouTube video player"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="Circe">
+        <h3>Wouldn't You Like</h3>
+        <p>
+        De EPIC: The Musical, inspirada en mitología griega.
+        </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NGD9GJd4e3g?si=2sYCPPJ7KaKnJA9i" title="YouTube video player"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	
+    </section>
+
+</body>
+</html>
